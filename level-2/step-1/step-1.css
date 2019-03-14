@@ -1,6 +1,6 @@
 .main-top-section {
     width: 100%;
-    height: 375px;
+    height: 850px;
     background: #F7F1E7;
     position: relative;
 }
@@ -10,6 +10,8 @@
     height: 70px;
     text-align: center;
     background: #D8D8D8;
+    display: flex;
+    padding: 2%;
 }
 
 /*  Step-1 You need to get all of these elements to line up side by side. What display property would do this for you? */
@@ -18,6 +20,7 @@
     width: 100px;
     height: 40px;
     background: #536A63;
+    float: left;
 }
 
 .logo {
@@ -25,6 +28,8 @@
     height: 40px;
     margin-top: 10px;
     background: #536A63;
+    margin-right: 37%;
+    margin: auto;
 }
 
 .sign-in {
@@ -40,4 +45,8 @@
     height: 60px;
     left: 22%;
     background: #536A63;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    bottom: -25px;
 }
